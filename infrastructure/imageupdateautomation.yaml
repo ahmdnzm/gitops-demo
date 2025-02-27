@@ -13,8 +13,9 @@ spec:
       ref:
         branch: main
     commit:
-      email: fluxcdbot@users.noreply.github.com
-      name: fluxcdbot
+      author:
+        email: fluxcdbot@users.noreply.github.com
+        name: fluxcdbot
     messageTemplate: "{{range .Updated.Images}}{{println .}}{{end}}"
   push:
     branch: flux-automated-upgrade
