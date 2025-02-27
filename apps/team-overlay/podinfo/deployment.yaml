@@ -9,6 +9,6 @@ spec:
         - name: podinfod
           env:
             - name: PODINFO_UI_COLOR
-              value: "#34577c"
+              value: "#007300"
             - name: PODINFO_UI_MESSAGE
               value: "Hello from team-overlay"
